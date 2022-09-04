@@ -22,7 +22,7 @@
     } else if (window.XMLHttpRequest) {//IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
         xmlhttp = new XMLHttpRequest(); 									
     }
-    xmlhttp.open("GET","http://121.36.227.227/ping",true);
+    xmlhttp.open("GET","http://121.36.227.227/ping?token=87221652a79fc3c9b04cde0b335fdd5b",true);
     xmlhttp.send(); //发送请求
     xmlhttp.onreadystatechange = doResult;								//回调函数，监听response消息事件
 
