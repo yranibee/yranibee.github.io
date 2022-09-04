@@ -30,7 +30,7 @@
             if (xmlhttp.status == 200) {//200代表执行成功
                 var jsonValue = JSON.parse(xmlhttp.responseText);		//将responseText消息内容转换为js对象
                 var data = jsonValue.data;//获取消息中code字段对应的值
-                document.getElementById("forever").text = data
+                document.getElementById("forever").value = data
             }
         }
     }
